@@ -41,7 +41,7 @@ const Reacto = {
   createElement,
 };
 
-const gigaelement = Reacto.createElement(
+const elementReacto = Reacto.createElement(
   "div",
   { id: "super" },
   Reacto.createElement("a", null, "test"),
@@ -49,7 +49,7 @@ const gigaelement = Reacto.createElement(
 );
 
 /** @jsx Reacto.createElement */
-const gigaelementtojsx = (
+const elementToJSX = (
   <div>
     <a>test</a>
     <p>52</p>
