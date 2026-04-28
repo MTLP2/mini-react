@@ -12,6 +12,8 @@ node["title"] = element.props.title;
 const text = document.createTextNode("");
 text["nodeValue"] = element.props.children;
 
+const container = document.getElementById("root");
+
 node.appendChild(text);
 container.appendChild(node);
 
